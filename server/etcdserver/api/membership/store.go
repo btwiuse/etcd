@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"path"
 
-	"go.etcd.io/etcd/pkg/v3/types"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2store"
-	"go.etcd.io/etcd/server/v3/mvcc/backend"
+	"github.com/btwiuse/etcd/v3/pkg/types"
+	"github.com/btwiuse/etcd/v3/server/etcdserver/api/v2store"
+	"github.com/btwiuse/etcd/v3/server/mvcc/backend"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

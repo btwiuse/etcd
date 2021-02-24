@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"log"
 
-	"go.etcd.io/etcd/client/v3"
+	"github.com/btwiuse/etcd/v3/client/v3"
 )
 
 func mockAuth() {

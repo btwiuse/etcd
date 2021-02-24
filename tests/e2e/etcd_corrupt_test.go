@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	"go.etcd.io/etcd/client/v3"
+	"github.com/btwiuse/etcd/v3/api/mvccpb"
+	"github.com/btwiuse/etcd/v3/client/v3"
 
 	bolt "go.etcd.io/bbolt"
 )

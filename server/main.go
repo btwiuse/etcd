@@ -25,7 +25,7 @@ package main
 import (
 	"os"
 
-	"go.etcd.io/etcd/server/v3/etcdmain"
+	"github.com/btwiuse/etcd/v3/server/etcdmain"
 )
 
 func main() {

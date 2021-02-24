@@ -20,12 +20,12 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/pkg/v3/transport"
-	"go.etcd.io/etcd/pkg/v3/types"
-	"go.etcd.io/etcd/raft/v3"
-	"go.etcd.io/etcd/raft/v3/raftpb"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/snap"
-	stats "go.etcd.io/etcd/server/v3/etcdserver/api/v2stats"
+	"github.com/btwiuse/etcd/v3/pkg/transport"
+	"github.com/btwiuse/etcd/v3/pkg/types"
+	"github.com/btwiuse/etcd/v3/raft"
+	"github.com/btwiuse/etcd/v3/raft/raftpb"
+	"github.com/btwiuse/etcd/v3/server/etcdserver/api/snap"
+	stats "github.com/btwiuse/etcd/v3/server/etcdserver/api/v2stats"
 
 	"github.com/xiang90/probing"
 	"go.uber.org/zap"

@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
+	"github.com/btwiuse/etcd/v3/api/etcdserverpb"
 )
 
 func TestCtlV3MemberList(t *testing.T)        { testCtl(t, memberListTest) }

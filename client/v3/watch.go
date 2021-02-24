@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	v3rpc "go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
+	pb "github.com/btwiuse/etcd/v3/api/etcdserverpb"
+	"github.com/btwiuse/etcd/v3/api/mvccpb"
+	v3rpc "github.com/btwiuse/etcd/v3/api/v3rpc/rpctypes"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

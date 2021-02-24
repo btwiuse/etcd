@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go.etcd.io/etcd/api/v3/version"
+	"github.com/btwiuse/etcd/v3/api/version"
 )
 
 func TestV3CurlCipherSuitesValid(t *testing.T)    { testV3CurlCipherSuites(t, true) }

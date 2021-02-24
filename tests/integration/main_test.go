@@ -7,8 +7,8 @@ package integration
 import (
 	"testing"
 
-	"go.etcd.io/etcd/pkg/v3/testutil"
-	"go.etcd.io/etcd/server/v3/embed"
+	"github.com/btwiuse/etcd/v3/pkg/testutil"
+	"github.com/btwiuse/etcd/v3/server/embed"
 )
 
 func TestMain(m *testing.M) {

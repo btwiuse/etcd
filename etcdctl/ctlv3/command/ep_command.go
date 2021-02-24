@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	v3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/pkg/v3/flags"
+	"github.com/btwiuse/etcd/v3/api/etcdserverpb"
+	"github.com/btwiuse/etcd/v3/api/v3rpc/rpctypes"
+	v3 "github.com/btwiuse/etcd/v3/client/v3"
+	"github.com/btwiuse/etcd/v3/pkg/flags"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"

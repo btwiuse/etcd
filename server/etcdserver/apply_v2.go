@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"time"
 
-	"go.etcd.io/etcd/pkg/v3/pbutil"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2store"
+	"github.com/btwiuse/etcd/v3/pkg/pbutil"
+	"github.com/btwiuse/etcd/v3/server/etcdserver/api/membership"
+	"github.com/btwiuse/etcd/v3/server/etcdserver/api/v2store"
 
 	"go.uber.org/zap"
 )

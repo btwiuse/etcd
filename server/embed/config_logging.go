@@ -21,7 +21,7 @@ import (
 	"os"
 	"sync"
 
-	"go.etcd.io/etcd/pkg/v3/logutil"
+	"github.com/btwiuse/etcd/v3/pkg/logutil"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

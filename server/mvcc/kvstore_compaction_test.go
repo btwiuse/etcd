@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/pkg/v3/traceutil"
-	"go.etcd.io/etcd/server/v3/lease"
-	"go.etcd.io/etcd/server/v3/mvcc/backend"
+	"github.com/btwiuse/etcd/v3/pkg/traceutil"
+	"github.com/btwiuse/etcd/v3/server/lease"
+	"github.com/btwiuse/etcd/v3/server/mvcc/backend"
 	"go.uber.org/zap"
 )
 

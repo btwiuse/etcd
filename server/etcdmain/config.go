@@ -24,11 +24,11 @@ import (
 	"os"
 	"runtime"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/pkg/v3/flags"
-	"go.etcd.io/etcd/pkg/v3/logutil"
-	"go.etcd.io/etcd/server/v3/embed"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/rafthttp"
+	"github.com/btwiuse/etcd/v3/api/version"
+	"github.com/btwiuse/etcd/v3/pkg/flags"
+	"github.com/btwiuse/etcd/v3/pkg/logutil"
+	"github.com/btwiuse/etcd/v3/server/embed"
+	"github.com/btwiuse/etcd/v3/server/etcdserver/api/rafthttp"
 
 	"go.uber.org/zap"
 	"sigs.k8s.io/yaml"

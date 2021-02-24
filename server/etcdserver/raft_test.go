@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/pkg/v3/pbutil"
-	"go.etcd.io/etcd/pkg/v3/types"
-	"go.etcd.io/etcd/raft/v3"
-	"go.etcd.io/etcd/raft/v3/raftpb"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/server/v3/mock/mockstorage"
+	"github.com/btwiuse/etcd/v3/pkg/pbutil"
+	"github.com/btwiuse/etcd/v3/pkg/types"
+	"github.com/btwiuse/etcd/v3/raft"
+	"github.com/btwiuse/etcd/v3/raft/raftpb"
+	"github.com/btwiuse/etcd/v3/server/etcdserver/api/membership"
+	"github.com/btwiuse/etcd/v3/server/mock/mockstorage"
 	"go.uber.org/zap"
 )
 

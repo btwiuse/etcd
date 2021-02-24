@@ -22,7 +22,7 @@ import (
 	"syscall"
 	"testing"
 
-	"go.etcd.io/etcd/server/v3/etcdmain"
+	"github.com/btwiuse/etcd/v3/server/etcdmain"
 )
 
 func SplitTestArgs(args []string) (testArgs, appArgs []string) {

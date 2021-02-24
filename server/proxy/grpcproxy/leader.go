@@ -19,7 +19,7 @@ import (
 	"math"
 	"sync"
 
-	"go.etcd.io/etcd/client/v3"
+	"github.com/btwiuse/etcd/v3/client/v3"
 
 	"golang.org/x/time/rate"
 )

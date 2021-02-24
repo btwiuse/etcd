@@ -16,7 +16,7 @@ package membership
 
 import (
 	"github.com/coreos/go-semver/semver"
-	"go.etcd.io/etcd/api/v3/version"
+	"github.com/btwiuse/etcd/v3/api/version"
 	"go.uber.org/zap"
 )
 

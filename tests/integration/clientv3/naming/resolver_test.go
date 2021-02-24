@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/client/v3/naming/endpoints"
-	"go.etcd.io/etcd/client/v3/naming/resolver"
-	grpctest "go.etcd.io/etcd/pkg/v3/grpc_testing"
-	"go.etcd.io/etcd/pkg/v3/testutil"
-	"go.etcd.io/etcd/tests/v3/integration"
+	"github.com/btwiuse/etcd/v3/client/v3/naming/endpoints"
+	"github.com/btwiuse/etcd/v3/client/v3/naming/resolver"
+	grpctest "github.com/btwiuse/etcd/v3/pkg/grpc_testing"
+	"github.com/btwiuse/etcd/v3/pkg/testutil"
+	"github.com/btwiuse/etcd/v3/tests/integration"
 
 	"google.golang.org/grpc"
 	testpb "google.golang.org/grpc/test/grpc_testing"

@@ -19,11 +19,11 @@ import (
 	"reflect"
 	"testing"
 
-	etcd "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/naming/endpoints"
+	etcd "github.com/btwiuse/etcd/v3/client/v3"
+	"github.com/btwiuse/etcd/v3/client/v3/naming/endpoints"
 
-	"go.etcd.io/etcd/pkg/v3/testutil"
-	"go.etcd.io/etcd/tests/v3/integration"
+	"github.com/btwiuse/etcd/v3/pkg/testutil"
+	"github.com/btwiuse/etcd/v3/tests/integration"
 )
 
 func TestEndpointManager(t *testing.T) {

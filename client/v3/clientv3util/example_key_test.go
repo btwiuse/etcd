@@ -18,8 +18,8 @@ import (
 	"context"
 	"log"
 
-	"go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/clientv3util"
+	"github.com/btwiuse/etcd/v3/client/v3"
+	"github.com/btwiuse/etcd/v3/client/v3/clientv3util"
 )
 
 func ExampleKeyMissing() {

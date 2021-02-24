@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"io"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
+	pb "github.com/btwiuse/etcd/v3/api/etcdserverpb"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )
